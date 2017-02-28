@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ioT-mak
+  host: ioT-mak
+  disk_quota: 1024M
+  services:
+  - ioT-mak-cloudantNoSQLDB
+  - ioT-mak-iotf-service
+  - availability-monitoring-auto
